@@ -157,17 +157,20 @@ main {
     gap: 20px;
     justify-content: space-around;
 }
-.what_i_do_title{
+
+.what_i_do_title {
     text-align: center;
     color: #181818;
 }
+
 .what_i_do_item {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 20px;
 }
-.what_i_do_item_description{
+
+.what_i_do_item_description {
     text-align: justify;
     font-size: 14px;
     color: #757575;
@@ -182,6 +185,91 @@ main {
     text-align: justify;
     color: #757575;
 }
-.what_i_do_item_title{
+
+.what_i_do_item_title {
     color: #181818;
+}
+
+.my_resume_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my_resume_item {
+    padding: 30px;
+}
+
+.my_resume_title {
+    margin: 80px 0px 30px;
+    text-align: center;
+    color: #181818;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.item_title {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item_item_title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #474747;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.item_item_location {
+    margin-top: 0;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item_item_description {
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.download_cv_container {
+    text-align: center;
+}
+
+
+.footer_container {
+    display: flex;
+    margin-top: 50px;
+    background-color: #FFF8F3;
+    justify-content: space-around;
+    padding: 0 150px;
+}
+
+.footer_item_title {
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer_item_description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.footer_item_input{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.footer_item{
+    padding: 30px;
+}
+
+.download_icon{
+    margin-right: 5px;
+    /* font-size: 30px; */
 }
