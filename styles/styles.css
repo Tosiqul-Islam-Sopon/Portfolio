@@ -87,23 +87,26 @@ nav li a {
     font-size: 65px;
     font-weight: 700;
 }
-.banner_description{
+
+.banner_description {
     margin: 0;
     margin-bottom: 30px;
     font-size: 16px;
 }
-.banner_content{
+
+.banner_content {
     max-width: 500px;
     text-align: justify;
 }
 
 
 
-main{
+main {
     max-width: 800px;
     margin: 0 auto;
 }
-.aboutMe{
+
+.aboutMe {
     margin-top: 100px;
     /* margin-left: 230px;
     margin-right: 230px; */
@@ -113,29 +116,72 @@ main{
     padding-bottom: 50px;
     text-align: center;
 }
-.section_title{
+
+.section_title {
     color: #181818;
     font-size: 25px;
 }
-.section_description{
+
+.section_description {
     color: #757575;
     padding: 0px 70px;
 }
 
-.about_info_container{
+.about_info_container {
     display: flex;
     justify-content: space-around;
     padding: 0px 70px;
 }
-.info_name{
+
+.info_name {
     color: #757575;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 0;
 }
-.info_description{
+
+.info_description {
     color: #474747;
     font-weight: 700;
     line-height: 30px;
     margin-top: 0;
+}
+
+.what_i_do_container {
+    margin-top: 80px;
+}
+
+.what_i_do_item_container {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.what_i_do_title{
+    text-align: center;
+    color: #181818;
+}
+.what_i_do_item {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+}
+.what_i_do_item_description{
+    text-align: justify;
+    font-size: 14px;
+    color: #757575;
+}
+
+.what_i_do_icon {
+    align-items: self-start;
+}
+
+.what_i_do_description {
+    padding: 30px 100px;
+    text-align: justify;
+    color: #757575;
+}
+.what_i_do_item_title{
+    color: #181818;
 }
